@@ -1,0 +1,40 @@
+h1 {
+  color: crimson;
+}
+/*This line is comment  */
+
+/* Grouping of selectors*/
+h4,
+h5 {
+  color: cornflowerblue;
+}
+/*   paragraph selectors*/
+p {
+  color: pink;
+}
+/*   ID selectors*/
+#tittle {
+  color: darkgoldenrod;
+  background-color: darkgrey;
+}
+#footer {
+  color: paleturquoise;
+  background-color: black;
+}
+
+/*Class selectors*/
+.green {
+  color: green;
+}
+.orange {
+  color: orange;
+  background-color: palegoldenrod;
+}
+
+/*   div & span grouping selectors*/
+span {
+  text-transform: uppercase;
+}
+div {
+  color: peachpuff;
+}
