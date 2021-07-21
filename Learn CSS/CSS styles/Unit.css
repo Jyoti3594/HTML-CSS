@@ -1,0 +1,39 @@
+/*--Font-size , width, pixels--
+Unit in  CSS*
+
+1em = defult set font size of browser 
+rem = depends on root */
+
+h1 {
+  font-size: 60px;
+  height: 90px;
+  width: 400px;
+  background: blue;
+}
+
+/*Percent value - Relative*/
+
+.outer {
+  font-size: 90px;
+  width: 400px;
+  height: 400px;
+  background: yellow;
+}
+
+.inner {
+  font-size: 50%;
+  height: 50%;
+  background: pink;
+}
+
+/*em - default font size/customized set value size*/
+/*HTMl  is root here and rem is depending upon root */
+html {
+  font-size: 16px;
+}
+.relative {
+  font-size: 2em;
+}
+.absolute {
+  font-size: 1rem;
+}
