@@ -1,0 +1,43 @@
+/*Color properties*/
+/*Color
+
+;.use this site for coolers ...
+ # -----https://coolors.co/-------
+ white rgb(255,255,255)
+
+black -rgb(0,0,0)
+
+rgba(122,123,124,0.5opacity color)
+
+Opacity- (1 -max , 0- min)
+
+HSL-use for color choice
+
+HEX -  (f -max , 0- min)
+123456789 A(10), B(11) , C(12),D(13), E(14) , F(15),  #FF0000-RED , #00FF00-GREEN & more...
+*/
+
+#first {
+  color: lightgray;
+  background: chocolate;
+}
+#second {
+  color: crimson;
+  background: yellow;
+}
+#three {
+  color: rgb(104, 104, 139);
+  background: rgb(100, 100, 100);
+}
+#four {
+  color: rgb(100, 123, 56);
+  background: rgba(0, 0, 0, 0.5);
+}
+#five {
+  color: #ff03;
+  background: #ffffff;
+}
+
+body {
+  background: rgba(12, 10, 145, 0.3);
+}
