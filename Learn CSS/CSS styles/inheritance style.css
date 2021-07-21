@@ -1,0 +1,24 @@
+/*Inheritance*/
+body {
+  color: royalblue;
+  background-color: whitesmoke;
+  font-family: cursive;
+  font-size: small;
+  border-style: solid;
+  color: black;
+}
+
+div {
+  color: violet;
+  background-color: wheat;
+  border-style: dotted;
+  color: black;
+}
+
+h2 {
+  color: turquoise;
+}
+
+p {
+  color: blueviolet;
+}
