@@ -1,0 +1,29 @@
+/*Font stack ,  generric- family(last one in suggestion list)*/
+/* More SUGGGESTIONS: Search Google fonts*/
+
+/*Font- size font-family , line height*/
+body {
+  font-family: fantasy;
+  line-height: 1.4;
+}
+
+/* font size , text decoration, Letter spacing */
+.main,
+.subheading {
+  font-size: medium;
+  font-weight: 100;
+  text-decoration-line: underline;
+  letter-spacing: 1em;
+}
+/*Font-align,word spacing*/
+.one {
+  text-align: center;
+  font-family: cursive;
+  word-spacing: 10px;
+}
+/*Font- indent,text -transform*/
+.two {
+  text-indent: 10rem;
+  font-family: cursive;
+  text-transform: uppercase;
+}
