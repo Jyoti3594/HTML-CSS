@@ -1,0 +1,84 @@
+/*Inline property:  does not start with new line,take onlt much space as needed
+
+Block: Always start a new line and take full width
+
+horizontal centering
+
+
+*/
+
+* {
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Inline block*/
+a {
+  font-size: 60px;
+  background: red;
+  margin: 20px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.block {
+  background: blueviolet;
+
+  width: 150px;
+  margin: 20px auto;
+}
+
+.inline {
+  background: tomato;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* mobile Nav. */
+ul li {
+  list-style-type: none;
+}
+
+ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  background: #222;
+  color: red;
+  display: block;
+  padding: 10px 10px;
+  margin: 10px;
+}
+
+/*
+Box sizing*/
+.box1,
+.box2 {
+  width: 200px;
+  height: 200px;
+  color: white;
+}
+.box1 {
+  background: red;
+  padding: 20px;
+}
+.box2 {
+  background: greenyellow;
+}
+
+/*
+Opacity   (1- max, 0 - minimum*/
+
+.opacity1 {
+  opacity: 1;
+  background: chocolate;
+}
+
+.opacity2 {
+  opacity: 0;
+  background: chocolate;
+}
