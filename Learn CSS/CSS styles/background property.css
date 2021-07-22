@@ -1,0 +1,40 @@
+/*---Background size : background -repeat
+     Background postition : background-left/right/centr/top/x/y
+
+     Background-attachment:
+     */
+
+div {
+  height: 400px;
+  color: thistle;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.big-img {
+  background: url("/resource/big.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.small-img {
+  border: 2px solid paleturquoise;
+
+  background: url("/resource/small.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.folder-img {
+  background: url("/resource/big.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
