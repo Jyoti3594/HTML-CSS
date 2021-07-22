@@ -1,0 +1,30 @@
+/*
+Css-Box model- Content,Padding,Border,Margin,margin-Negetive value , border radius
+*/
+
+h1 {
+  border-left: 10px;
+  border-bottom: 10px;
+  border-right: 5px;
+  border-top: 10px;
+  border-color: cornflowerblue;
+  border-style: dotted;
+  background-color: yellow;
+  text-align: center;
+  padding: 20px;
+  margin: 0px;
+  border-radius: 20px;
+}
+
+p {
+  border-left: 5px;
+  border-bottom: 5px;
+  border-right: 5px;
+  border-top: 5px;
+  border-color: thistle;
+  border-style: double;
+  background-color: skyblue;
+  text-align: center;
+  padding: 10px;
+  margin: 8px;
+}
