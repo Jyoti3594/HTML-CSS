@@ -1,0 +1,72 @@
+.one,
+.two,
+.three {
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+}
+.one {
+  background: linear-gradient(red, yellow);
+}
+.two {
+  background: linear-gradient(pink, purple);
+}
+
+.three {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgb(252, 26, 139));
+}
+
+.header,
+.foot {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 60px;
+  color: rgb(255, 136, 0);
+}
+.header {
+  background: url(/resource/big.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.foot {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/resource/big.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.colorzilla {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e08e3c+0,4096ee+0,e08e3c+51,e08e3c+52 */
+  background: #e08e3c; /* Old browsers */
+  background: -moz-radial-gradient(
+    center,
+    ellipse cover,
+    #e08e3c 0%,
+    #4096ee 0%,
+    #e08e3c 51%,
+    #e08e3c 52%
+  ); /* FF3.6-15 */
+  background: -webkit-radial-gradient(
+    center,
+    ellipse cover,
+    #e08e3c 0%,
+    #4096ee 0%,
+    #e08e3c 51%,
+    #e08e3c 52%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(
+    ellipse at center,
+    #e08e3c 0%,
+    #4096ee 0%,
+    #e08e3c 51%,
+    #e08e3c 52%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e08e3c', endColorstr='#e08e3c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
