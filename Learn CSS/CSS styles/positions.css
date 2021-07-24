@@ -1,0 +1,28 @@
+button {
+  background: red;
+  font-size: 40px;
+  color: seashell;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+div {
+  border: 3px solid red;
+  background-color: yellow;
+  margin-top: 40px;
+}
+.one {
+  background: blue;
+  position: relative;
+}
+.two {
+  background: greenyellow;
+}
+.special {
+  background: hotpink;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+}
