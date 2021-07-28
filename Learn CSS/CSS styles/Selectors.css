@@ -1,0 +1,70 @@
+/*--Basic Selector --
+Descendant & Child combinators
+Decendants cannot be child but child can be decendant of parent/root
+*/
+
+/* --::first-line , ::first-letter-- 
+used to change property of first letter or line */
+
+/* -- :hover -- 
+used to change the property if you hover on any element   */
+
+/*--:link , :active ,:hover , :visited --
+Change propery of different types of link accordingly*/
+
+* {
+  color: blueviolet;
+}
+
+#heading {
+  font-size: 40px;
+  text-transform: uppercase;
+  color: chocolate;
+}
+
+.heading {
+  font-size: 20px;
+  text-transform: capitalize;
+  color: darkgreen;
+}
+
+p {
+  letter-spacing: 10px;
+  color: brown;
+}
+
+/*using div  for common property settings*/
+div h1 {
+  color: darkorange;
+}
+/*using '>' icon to refer child */
+div > h1 {
+  color: deeppink;
+}
+
+/*:: First line  & ::first-letter*/
+p::first-letter {
+  font-weight: bold;
+}
+p::first-line {
+  font-size: 3rem;
+}
+
+/*:Hover */
+p:hover {
+  background: chartreuse;
+}
+
+/*:active ,:hover , :visited , :link*/
+a:link {
+  color: aquamarine;
+}
+a:visited {
+  color: red;
+}
+a:hover {
+  color: blue;
+}
+a:active {
+  color: darksalmon;
+}
