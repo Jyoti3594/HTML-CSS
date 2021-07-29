@@ -1,0 +1,47 @@
+/*->Animation =  0 1% 2% ...100%
+Transition  = 0...100
+
+->first write the property you want to change in "@KeyFrame name_of_animation"
+
+then  enter the ( "animation name_of_animation") in classs where you want to add animation .
+
+->animation-fill-mode: defining the values  outside the animation..
+*/
+
+div {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  color: aliceblue;
+}
+
+.transition {
+  background: blue;
+  transition: all 2s linear;
+}
+
+.animation {
+  background: red;
+  animation: move;
+  animation-duration: 10s;
+  animation-iteration-count: 4;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(20px);
+  }
+  50% {
+    transform: translateX(100px);
+    background: red;
+  }
+  75% {
+    transform: translateX(-200px);
+    background: yellow;
+  }
+
+  100% {
+    transform: translateX(20px);
+    background: green;
+  }
+}
