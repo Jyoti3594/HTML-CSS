@@ -1,0 +1,39 @@
+/*--Transform:Translate/Rotate/Scale/Skew--*/
+/*--Transform: X-axis ,Y-axis--
+
+Translate : you can move content in X,Y direction as required .
+translateX(),translateY() translate(X,Y)
+
+Scale: You can increase size of element in X,Y direction 
+ScaleX(),scaleY() scale(X,Y) 
+
+
+Rotate: You can rotate element in X,Y ,Z direction 
+rotateX(),rotateY() rotate(X,Y,Z) 
+
+
+*/
+
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+.one {
+  background: fuchsia;
+  transform: translateX(50%);
+}
+
+.two {
+  background: gold;
+  transform: rotate(45degree);
+}
+.three {
+  background: powderblue;
+  transform: scale(1.5, 1.5);
+}
+.four {
+  background: pink;
+  transform: skewX(45deg);
+}
