@@ -1,0 +1,46 @@
+/*---Transition: change over time---
+transition-property :
+transition-duration :
+transition-delay:
+
+
+
+  proper format  :
+transition:(name of property,duration of transition ,delay )
+
+
+
+
+*/
+
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+div:hover {
+  background: plum;
+  
+}
+.one {
+  background: powderblue;
+}
+.two {
+  background: palegreen;
+}
+.three {
+  background: peachpuff;
+}
+/* Specify the name of   CSS property to which the transition is applied. */
+.four {
+  background: pink;
+  transition-property: background, border-radius;
+
+  transition-duration: 5s,2s;
+  transition-delay: 3s;
+}
+
+.four:hover {
+  border-radius: 50%;
+}
