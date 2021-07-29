@@ -1,0 +1,47 @@
+/* css variable - Custom properties 
+it hold a value and resue it .
+
+syntex:
+assign value -> --varName:value
+Use in another element->  property:var(--varName)
+
+scope of variable -> 2 type
+1) :root{}===global
+2) element==local
+and property
+*/
+
+/*
+.heading{
+    color: teal;
+}
+.text{
+    color: thistle;
+}
+
+.main-text{
+    color: tomato;
+}
+
+.second-heading{
+    color: turquoise;
+} */
+
+:root {
+  --primaryColor: #f15025;
+  --secondaryColor: green;
+  --mainTransition: all 0.4s linear;
+}
+
+.heading {
+  color: var(--primaryColor);
+}
+
+.second-heading {
+  color: var(--primaryColor);
+  transition: var(--mainTransition);
+}
+
+.second-heading:hover {
+  color: var(--secondaryColor);
+}
